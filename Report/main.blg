@@ -1,11 +1,24 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 A level-1 auxiliary file: ./Contents/Authors.aux
+White space in argument---line 4 of file main.aux
+ : \citation{(I
+ :              CEDEX) Engineering design; A systematic approach,3rd ed}
+I'm skipping whatever remains of this command
 The style file: ieeetran.bst
 Database file #1: ./Contents/References/references.bib
+Warning--I didn't find a database entry for "harashima1999"
+Warning--I didn't find a database entry for "Hammadi"
+Warning--I didn't find a database entry for "GUizani"
+Warning--I didn't find a database entry for "Seo"
+Warning--I didn't find a database entry for "Behabani"
+Warning--I didn't find a database entry for "Malmquist"
+Warning--I didn't find a database entry for "Roos"
+Warning--I didn't find a database entry for "Grant"
+Warning--I didn't find a database entry for "CVX"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in roos2007towards
 
 Done.
-(There was 1 warning)
+(There was 1 error message)

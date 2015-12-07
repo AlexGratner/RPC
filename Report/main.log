@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  29 NOV 2015 22:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  6 DEC 2015 22:23
 entering extended mode
 **main.tex
 
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\main.tex"
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\mai
+n.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\IEEEtran.cls"
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\IEE
+Etran.cls"
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -302,10 +302,10 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 100.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))))
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\main.aux"
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Authors.aux"))
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\mai
+n.aux"
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Authors.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
@@ -374,20 +374,61 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks23
 )
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Authors.tex")
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Abstract.tex")
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Introduction.tex")
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Previous_work.tex")
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Optimization_approach.tex")
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Conclusion.tex")
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\main.bbl")
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Authors.tex")
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Abstract.tex")
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Introduction.tex"
+
+LaTeX Warning: Citation `harashima1999' on page 1 undefined on input line 12.
+
+
+LaTeX Warning: Citation `(I CEDEX) Engineering design; A systematic approach' o
+n page 1 undefined on input line 12.
+
+
+LaTeX Warning: Citation `3rd ed' on page 1 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Hammadi' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation `GUizani' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Seo' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Behabani' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Malmquist' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Roos' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Grant' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `CVX' on page 1 undefined on input line 20.
+
+)
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Previous_work.tex")
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Optimization_approach.tex" [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdf
+tex.map}
+
+
+
+
+])
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Conclusion.tex")
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\mai
+n.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -399,41 +440,39 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+[2]
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\mai
+n.aux"
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report\Con
+tents\Authors.aux"))
 
+LaTeX Warning: There were undefined references.
 
-
-
-]
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\main.aux"
-("D:\word_master\S3P1\MF2075 Engineering Design Research Project\ResearchProjec
-tConvex\Report\Contents\Authors.aux")) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 3917 strings out of 493921
- 59105 string characters out of 3147267
+ 3928 strings out of 493921
+ 58739 string characters out of 3147267
  227065 words of memory out of 3000000
- 7130 multiletter control sequences out of 15000+200000
+ 7141 multiletter control sequences out of 15000+200000
  107363 words of font info for 109 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 37i,16n,21p,765b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/fontname/8r.enc}<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7
-.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 143885 bytes).
+ 37i,16n,21p,1163b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 
+2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/times/utmbi8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
+pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 149454 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -68,15 +68,32 @@ D.~Malmquist, ``A tool for holistic optimization of mechatronic design
 F.~Roos, ``Towards a methodology for integrated design of mechatronic servo
   systems,'' 2007.
 
-\bibitem{gb08}
-M.~Grant and S.~Boyd, ``Graph implementations for nonsmooth convex programs,''
-  in \emph{Recent Advances in Learning and Control}, ser. Lecture Notes in
-  Control and Information Sciences.\hskip 1em plus 0.5em minus 0.4em\relax
-  Springer-Verlag Limited, 2008, pp. 95--110.
-
 \bibitem{cvx}
-------, ``{CVX}: Matlab software for disciplined convex programming, version
-  2.1,'' \url{http://cvxr.com/cvx}, Mar. 2014.
+M.~Grant and S.~Boyd, ``{CVX}: Matlab software for disciplined convex
+  programming, version 2.1,'' \url{http://cvxr.com/cvx}, Mar. 2014.
+
+\bibitem{boyd2004convex}
+S.~Boyd and L.~Vandenberghe, \emph{Convex optimization}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Cambridge university press, 2004.
+
+\bibitem{Posynomial2015}
+G.~C. Calafiore, L.~M. {El Ghaoui}, and C.~Novaraa, ``{Sparse Identification of
+  Posynomial Models},'' \emph{Automatica}, vol.~59, pp. 27--34, 2015.
+
+\bibitem{liu2007geometric}
+S.-T. Liu, ``Geometric programming with fuzzy parameters in engineering
+  optimization,'' \emph{International journal of approximate reasoning},
+  vol.~46, no.~3, pp. 484--498, 2007.
+
+\bibitem{liu2009using}
+------, ``Using geometric programming to profit maximization with interval
+  coefficients and quantity discount,'' \emph{Applied Mathematics and
+  Computation}, vol. 209, no.~2, pp. 259--265, 2009.
+
+\bibitem{mahapatra2012posynomial}
+G.~Mahapatra and T.~Mandal, ``Posynomial parametric geometric programming with
+  interval valued coefficient,'' \emph{Journal of Optimization Theory and
+  Applications}, vol. 154, no.~1, pp. 120--132, 2012.
 
 \bibitem{Affi2007}
 Z.~Affi, B.~EL-Kribi, and L.~Romdhane, ``{Advanced mechatronic design using a

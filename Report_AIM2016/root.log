@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  8 DEC 2015 15:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  8 DEC 2015 21:06
 entering extended mode
 **root.tex
 
@@ -292,6 +292,23 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 100.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))))
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
 ("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
 2016\root.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -378,12 +395,28 @@ tex.map}
 
 ])
 ("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
-2016\Contents\Optimization_approach.tex" [2])
-("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
-2016\root.bbl" [3]
-Underfull \vbox (badness 1742) has occurred while \output is active []
+2016\Contents\Optimization_approach.tex" [2] [3]
+Package epstopdf Info: Source file: <Plots/slope_delay.eps>
+(epstopdf)                    date: 2015-12-08 20:42:38
+(epstopdf)                    size: 22771 bytes
+(epstopdf)             Output file: <Plots/slope_delay-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 20:51:56
+(epstopdf)                    size: 5073 bytes
+(epstopdf)             Command: <epstopdf --outfile=Plots/slope_delay-eps-conve
+rted-to.pdf Plots/slope_delay.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
 
+<Plots/slope_delay-eps-converted-to.pdf, id=29, 630.355pt x 167.62625pt>
+File: Plots/slope_delay-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Plots/slope_delay-eps-converted-to.pdf>
+Package pdftex.def Info: Plots/slope_delay-eps-converted-to.pdf used on input l
+ine 50.
+(pdftex.def)             Requested size: 245.71811pt x 65.34071pt.
 )
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
+2016\root.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -395,7 +428,8 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[4]
+[4 <D:/word_master/S3P2/MF2075 Engineering Design Research Project/RPC/Report_A
+IM2016/Plots/slope_delay-eps-converted-to.pdf>]
 ("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
 2016\root.aux")
 
@@ -403,13 +437,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3741 strings out of 493921
- 53059 string characters out of 3147267
- 220133 words of memory out of 3000000
- 6954 multiletter control sequences out of 15000+200000
- 114467 words of font info for 129 fonts, out of 3000000 for 9000
+ 3945 strings out of 493921
+ 56820 string characters out of 3147267
+ 225313 words of memory out of 3000000
+ 7140 multiletter control sequences out of 15000+200000
+ 115545 words of font info for 130 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 37i,16n,21p,1246b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,16n,23p,1246b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/MiKTeX 2.9/font
@@ -427,9 +461,9 @@ crr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on root.pdf (4 pages, 203221 bytes).
+Output written on root.pdf (4 pages, 212743 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.21)  8 DEC 2015 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.21)  8 DEC 2015 22:34
 entering extended mode
 **main.tex
 (main.tex
@@ -418,7 +418,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ])
-(Contents/Optimization_approach.tex [2]) (Contents/Case_study.tex [3])
+(Contents/Optimization_approach.tex [2]) (Contents/Case_study.tex
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [3])
 (Contents/Conclusion.tex) (main.bbl)
 
 ** Conference Paper **
@@ -437,10 +447,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4221 strings out of 493673
- 59942 string characters out of 3143954
- 233643 words of memory out of 3000000
- 7467 multiletter control sequences out of 15000+200000
+ 4222 strings out of 493673
+ 59951 string characters out of 3143954
+ 234652 words of memory out of 3000000
+ 7468 multiletter control sequences out of 15000+200000
  108608 words of font info for 115 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
  37i,16n,26p,1163b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -459,7 +469,7 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files
 pe1/urw/times/utmb8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 bi8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 190180 bytes).
+Output written on main.pdf (4 pages, 191283 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,0 +1,52 @@
+The physical system studied in our case is a mechatronic servo system consisting of a motor, a shaft and a planetary gear as shown in figure ?????. Both the static and dynamic models for different components have been previously developed by Roos and Daniel. Here we will focus only on how to arrange the existing mathematical models to geometrical form which can be accepted by the CVX toolbox. In order to perform a fair comparison, the load used in our case is the same as that used in Daniel’s, i.e. a load inertia $J_{load}$ 1.1 kg m2 with a specified motion profile (shown in fig ?????) . Similarly, the optimization objective is still the system volume. The dimensioning factor introduced in the dynamic model of Daniel’s method is applied to every optimization result from the static model, while in our case, the dimensioning factor can only be calculated for the optimum from the static model.
+
+
+\subsection*{Motor}
+The motor model was derived by Roos[???] based on the constraint of the rated torque no less than the expected RMS torque:
+\begin{equation} \label{eq:cs1}
+T_{m,rated} \geqslant \tilde{T}_m
+\end{equation}
+Roos et al derived the rated torque of the motor considering mechanical, magnetic and thermal effects as
+\begin{equation} \label{eq:cs2}
+T_{m,rated}=C_ml_m r_m^{2.5}
+\end{equation}
+Where $C_m$ is a constant for a specific motor type and cooling condition, $l_m$ is the motor length and $r_m$ the radius of the stator. The motor’s root mean square (RMS) torque is derived to drive the given load torque $T_l$ on the load side transferred to the motor side with gear ratio $n$:
+\begin{equation} \label{eq:cs3}
+\tilde{T}_m=\sqrt{\frac{1}{\tau}\int_0^\tau ((C_{mj}l_m r_m^{4}+J_m)\ddot{\varphi}_m+\frac{T_l}{n})^2  \mathrm{d} t}
+\end{equation}
+Where $C_{mj}$ is constant for a specific motor type and derived from a reference motor of the same type, $J_m$ is the rotor inertia ${\varphi}_m$ is the angular position of the output shaft.
+Rewriting the formula \ref{eq:cs1} by combining formula \ref{eq:cs2} and \ref{eq:cs3} results in
+\begin{equation} \label{eq:cs4}
+C_ml_m r_m^{2.5}\geqslant\sqrt{\frac{1}{\tau}\int_0^\tau ((C_{mj}l_m r_m^{4}+J_m)\ddot{\varphi}_m+\frac{T_l}{n})^2  \mathrm{d} t}
+\end{equation}
+Hence, the geometric form of this constraint is derived as
+\begin{equation} \label{eq:cs5}
+\frac{n_j^2 n^2 C_{mj}^2 T_{rms}^2 r_m^3}{J_{load}^2} + \frac{2 n_j C_{mj} T_{rms}^2}{J_{load} r_m l_m} + \frac{T_{rms}^2}{n^2 l_m^2 r_m^5} \leqslant C_m^2
+\end{equation}
+where $n_j$ is defined as $\frac{C_{mj}l_m r_m^{4}+J_m}{C_{mj}l_m r_m^{4}}$ and approximated as 10/9. 
+A complementary constraint for the motor model is form factor constraint
+\begin{equation} \label{eq:cs6}
+0.5 \leqslant \frac{l_m}{r_m} \leqslant 5
+\end{equation}
+The dynamic model of the motor is derived as
+\begin{equation} \label{eq:cs7}
+K_ti= \frac{T_l}{n} + J_m\ddot{{\varphi}}_m
+\end{equation}
+Where $K_t$ is the constant and $i$ is the electric current.
+
+
+\subsection*{Planetary gear}
+A three wheel planetary gear is used in the servo system instead of a spur gear since the volume of the planetary gear is less than a spur gear when transmitting the same torque. The main constraints on the planetary gear are bending stress in the root of a gear teeth and Hertzian pressure at the teeth contact surfaces. However, if the number of the sun gear teeth is small and/or the the gears are made from ductile steel, the dominant constraint would be the Herzian pressure. Every teeth surface needs to fulfill the following constraints by Roos:
+\begin{equation} \label{eq:cs8}
+r_g^2b \geqslant Z_H^2Z_M^2Z_{\varepsilon}K_{H\alpha}K_{H\beta}\frac{T_l(n-1)^2}{6(n-1)\sigma_{H,max}^2}
+\end{equation}
+Applying the standard parameters defined in Roos work, equation \ref{eq:cs8} can be simplified as
+\begin{equation} \label{eq:cs9}
+r_g^2b \geqslant 4\cdot10^{10}C_{gr}^2\frac{T_l(n-1)^2}{(n-1)\sigma_{H,max}^2}
+\end{equation}
+where $\sigma_{H,max}$ is the maximum allowed flank pressure given by
+\begin{equation} \label{eq:cs10}
+\sigma_{H,max}=\frac{\sigma_{H,lim}}{SF}
+\end{equation}
+$\sigma_{H,lim}$ the maximum allowed Herzian pressure for the particular gear material and $SF$ is the safe factor.
+

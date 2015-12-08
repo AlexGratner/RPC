@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  8 DEC 2015 21:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  8 DEC 2015 21:12
 entering extended mode
 **root.tex
 
@@ -397,10 +397,10 @@ tex.map}
 ("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
 2016\Contents\Optimization_approach.tex" [2] [3]
 Package epstopdf Info: Source file: <Plots/slope_delay.eps>
-(epstopdf)                    date: 2015-12-08 20:42:38
-(epstopdf)                    size: 22771 bytes
+(epstopdf)                    date: 2015-12-08 21:07:21
+(epstopdf)                    size: 22823 bytes
 (epstopdf)             Output file: <Plots/slope_delay-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-08 20:51:56
+(epstopdf)                    date: 2015-12-08 21:07:21
 (epstopdf)                    size: 5073 bytes
 (epstopdf)             Command: <epstopdf --outfile=Plots/slope_delay-eps-conve
 rted-to.pdf Plots/slope_delay.eps>
@@ -461,7 +461,7 @@ crr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on root.pdf (4 pages, 212743 bytes).
+Output written on root.pdf (4 pages, 212806 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

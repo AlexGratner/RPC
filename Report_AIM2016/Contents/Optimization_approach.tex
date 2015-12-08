@@ -1,0 +1,35 @@
+\subsection{Mathematical Preliminaries}
+The following introduction regarding convex optimization mainly come from \cite{gb08}. Note that the notations for different functions and sets will be used in later discussions. Before bringing the definition of convex optimization, we need to introduce what convex set and convex function are. A set $C$ is a convex set if for any two elements $x_1, x_2 \in C$, $\theta x_1+(1-\theta) x_2\in C$ holds for any $\theta \in \left[0,1\right]$. If the set $C$ represents a geometric region, any line segments defined by points which belong to $C$ shall be in the set. A function $f : \mathbf{R^n} \to \mathbf{R}$ is convex if \textbf{dom} $f$ is a convex set and any chord between any two points on $f$ lies above the graph of $f$. Based on the definition of convex function, a convex optimization (CO) problem is defined as 
+\begin{align}
+\begin{split}
+\label{eq:problem}
+\text{minimize} \quad  & f_0(x) \\
+\text{subject to} \quad & f_i(x) \leq 0,\quad i=1,\ldots,m\\
+                  & h_i(x) = 0,\quad i=1,\ldots,p
+\end{split}
+\end{align}
+where all the functions in \ref{eq:problem} are convex functions. $f_0(x)$ is named as objective function, $f_i(x)$ inequality constraint and $h_i(x)$ equality constraint. Although it is now a mature technique to solve a CO problem, it is not easy to formulate objective and constraint functions as convex ones. In the case of mechatronic system design, some typical objective functions, such as volume of the system, are not convex functions and not allowed to be manipulated. However they do follow polynomial form. Luckily, it is still possible to take the advantage of CO technique if those optimization problems can be formulated as another classic form, which is geometric programming (GP).
+
+Before discussion about GP, we need to introduce the form GP follows. A monomial function is defined as \ref{eq:monomial}
+\begin{equation}
+\label{eq:monomial}
+f(x)=cx_1^{a_1}x_2^{a_2}\cdots x_n^{a_n}, \quad \mathbf{dom} \, f=\mathbf{R_{++}^n}
+\end{equation}
+where $c$ is positive and $a_i$ can be any real number. A posynomial function is a sum of monomials, which is 
+\begin{equation}
+\label{eq:posynomial}
+f(x)=\sum_{k=1}^K c_kx_1^{a_{1k}}x_2^{a_{2k}}\cdots x_n^{a_{nk}}, \quad \mathbf{dom} \, f=\mathbf{R_{++}^n}
+\end{equation}
+A GP problem follows the same format as \ref{eq:problem}, except that objective and inequality constraints are posynomials and equality constraints are monomials. In fact, by conducting variable substitution, it is easy to show a GP problem can be transferred as a CO problem \cite{gb08}. 
+
+In order to formulate an optimization as GP, we don't need to verify if a function is convex or not. Instead, we only need to make sure both objective and constraint functions follow either monomial or posynomial forms. In this way, it is avoided to manipulate functions to be convex and it provides a well defined principle for researchers to create constraints.
+
+\subsection{Modeling Methodology for Mechanical Components}
+GP is considered to be promising in solving optimization problems of mechatronic system design since many of the constraints can be expressed by polynomial approximation. Although there is some distance between posynomials and polynomials, it is possible to get posynomial form since the parameters we deal with are all in positive orthant and all exponents in posynomials can be any real numbers while only nonnegative integers for polynomial models. 
+
+In order to create constraints, many of those properties need to be expressed by objective variables as posynomials for inequalities and monomials for equalities. In general, the constraint functions can be obtained by either analysis according to some theoretical principles or data fitting based on existing data. The former way would be easier to get a constraint, but in a rather complex form. Then it is necessary to manipulate the constraint function and make it to be proper. At this stage, there is no systematic way to do this. In the following case, we use a convergent sequence to change a nonlinear inequality to be posynomial. In principle any convergent sequences without negative terms can be used to approximate non-posynomial part of constraints. 
+ 
+ 
+In case that no analytical expression is available or the ones we get are too complicated to maneuver, data-fitting approach may be conducted. The data can come from experimental data collection, existing lookup tables. Therefore 
+Although one can try 
+ 

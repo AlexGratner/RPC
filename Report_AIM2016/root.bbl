@@ -1,0 +1,119 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{MechatronicsWWHHarashima}
+F.~Harashima, M.~Tomizuka, and T.~Fukuda, ``Mechatronics---"what is it, why,
+  and how?" an editorial,'' \emph{IEEE Transactions on Mechatronics}, vol.~1,
+  no.~1, pp. 1--4, 1996.
+
+\bibitem{EngineeringDesign}
+G.~Pahl, W.~Beitz, J.~Feldhusen, and K.-H. Grote, \emph{Engineering Design : A
+  systematic approach}, 3rd~ed., Springer, Ed., 2007.
+
+\bibitem{Hammadi2012}
+M.~Hammadi, J.~Y. Choley, O.~Penas, a.~Riviere, J.~Louati, and M.~Haddar, ``{A
+  new multi-criteria indicator for mechatronic system performance evaluation in
+  preliminary design level},'' \emph{2012 9th France-Japan and 7th Europe-Asia
+  Congress on Mechatronics, MECATRONICS 2012 / 13th International Workshop on
+  Research and Education in Mechatronics, REM 2012}, pp. 409--416, 2012.
+
+\bibitem{Hammadi2014}
+M.~Hammadi, J.-y. Choley, and P.~Hehenberger, ``{Mechatronic design
+  optimization using multi- agent approach},'' no. JUNE, 2014.
+
+\bibitem{Guizani2014}
+A.~Guizani, M.~Hammadi, J.-y. Choley, T.~Soriano, M.~S. Abbes, and M.~Haddar,
+  ``{Multidisciplinary approach for optimizing mechatronic systems :
+  Application to the optimal design of an electric vehicle},'' 2014.
+
+\bibitem{Seo2003}
+K.~Seo, Z.~Fan, J.~Hu, E.~D. Goodman, and R.~C. Rosenberg, ``{Toward a unified
+  and automated design methodology for multi-domain dynamic systems using bond
+  graphs and genetic programming},'' \emph{Mechatronics}, vol.~13, no. 8-9
+  SPEC., pp. 851--885, 2003.
+
+\bibitem{Behbahani2013}
+S.~Behbahani and C.~W. {De Silva}, ``{Mechatronic design evolution using bond
+  graphs and hybrid genetic algorithm with genetic programming},''
+  \emph{IEEE/ASME Transactions on Mechatronics}, vol.~18, no.~1, pp. 190--199,
+  2013.
+
+\bibitem{Behbahani2014}
+------, ``{Niching genetic scheme with bond graphs for topology and parameter
+  optimization of a mechatronic system},'' \emph{IEEE/ASME Transactions on
+  Mechatronics}, vol.~19, no.~1, pp. 269--277, 2014.
+
+\bibitem{malmquist2015tool}
+D.~Malmquist, ``A tool for holistic optimization of mechatronic design
+  concepts,'' 2015.
+
+\bibitem{roos2007}
+F.~Roos, ``Towards a methodology for integrated design of mechatronic servo
+  systems,'' 2007.
+
+\bibitem{gb08}
+M.~Grant and S.~Boyd, ``Graph implementations for nonsmooth convex programs,''
+  in \emph{Recent Advances in Learning and Control}, ser. Lecture Notes in
+  Control and Information Sciences.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer-Verlag Limited, 2008, pp. 95--110.
+
+\bibitem{cvx}
+------, ``{CVX}: Matlab software for disciplined convex programming, version
+  2.1,'' \url{http://cvxr.com/cvx}, Mar. 2014.
+
+\bibitem{Affi2007}
+Z.~Affi, B.~EL-Kribi, and L.~Romdhane, ``{Advanced mechatronic design using a
+  multi-objective genetic algorithm optimization of a motor-driven four-bar
+  system},'' \emph{Mechatronics}, vol.~17, no.~9, pp. 489--500, 2007.
+
+\bibitem{Albers2010}
+\BIBentryALTinterwordspacing
+A.~Albers and J.~Ottnad, ``{Integrated Structural and Controller Optimization
+  in Dynamic Mechatronic Systems},'' \emph{Journal of Mechanical Design}, vol.
+  132, no.~4, p. 041008, 2010. [Online]. Available:
+  \url{http://mechanicaldesign.asmedigitalcollection.asme.org/article.aspx?articleid=1450018}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Cedex2014}
+D.~K. {Didier Casner, R\'{e}my Houssin, Jean Renaud}, ``{Contribution to the
+  embodiment design of mechatronic system by evolutionary optimization
+  approaches},'' in \emph{CONTRIBUTION TO THE EMBODIMENT DESIGN OF MECHATRONIC
+  SYSTEM BY EVOLUTIONARY OPTIMIZATION APPROACHES}, Toulouse, France, 2014, pp.
+  1--7.
+
+\bibitem{He2005}
+\BIBentryALTinterwordspacing
+Y.~He and J.~McPhee, \emph{{A design methodology for mechatronic vehicles:
+  application of multidisciplinary optimization, multibody dynamics and genetic
+  algorithms}}, 2005, vol.~43, no.~10. [Online]. Available:
+  \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-27744456652\&partnerID=tZOtx3y1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Iwasaki2005}
+M.~Iwasaki, M.~Miwa, and N.~Matsui, ``{GA-based evolutionary identification
+  algorithm for unknown structured mechatronic systems},'' \emph{IEEE
+  Transactions on Industrial Electronics}, vol.~52, no.~1, pp. 300--305, 2005.
+
+\bibitem{Lee2011}
+T.~Lee, M.~Leok, and N.~H. McClamroch, ``{Geometric numerical integration for
+  complex dynamics of tethered spacecraft},'' \emph{Proceedings of the 2011
+  American Control Conference}, no. January, pp. 1885--1891, 2011.
+
+\end{thebibliography}

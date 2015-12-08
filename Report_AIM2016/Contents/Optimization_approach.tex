@@ -1,3 +1,5 @@
+In this section, we present general approach to convert a optimization problem of mechtronic product design to be the format of geometric programming. Some basics regarding convex optimization and geometric programming are introduced first. They are followed by three methods for construction of posynomial constraints for static properties of the system. Constraints regarding dynamic performance are interpreted in the end. 
+
 \subsection{Mathematical Preliminaries}
 The following introduction regarding convex optimization mainly come from \cite{boyd2004convex}. Note that the notations for different functions and sets will be used in later discussions. Before bringing the definition of convex optimization, we need to introduce what convex set and convex function are. A set $C$ is a convex set if for any two elements $x_1, x_2 \in C$, $\theta x_1+(1-\theta) x_2\in C$ holds for any $\theta \in \left[0,1\right]$. If the set $C$ represents a geometric region, any line segments defined by points which belong to $C$ shall be in the set. A function $f : \mathbf{R^n} \to \mathbf{R}$ is convex if \textbf{dom} $f$ is a convex set and any chord between any two points on $f$ lies above the graph of $f$. Based on the definition of convex function, a convex optimization (CO) problem is defined as 
 \begin{align}
@@ -47,10 +49,11 @@ Slope delay $D$ is used to describe delay of closed loop system under slope inpu
 
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=\linewidth]{Plots/slope_delay.eps}
+    \includegraphics[width=\linewidth]{Plots/slope_delay1.eps}
   \end{center}
   \caption{System reaction under a slope signal.}
   \label{fig:slope}
 \end{figure}
 
+While overshoot and slope delay can only speak one aspect of the system, ISE is a rather comprehensive criterion. 
 

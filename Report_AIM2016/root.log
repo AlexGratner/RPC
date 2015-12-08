@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  8 DEC 2015 21:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  8 DEC 2015 21:40
 entering extended mode
 **root.tex
 
@@ -396,24 +396,24 @@ tex.map}
 ])
 ("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
 2016\Contents\Optimization_approach.tex" [2] [3]
-Package epstopdf Info: Source file: <Plots/slope_delay.eps>
-(epstopdf)                    date: 2015-12-08 21:07:21
-(epstopdf)                    size: 22823 bytes
-(epstopdf)             Output file: <Plots/slope_delay-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-08 21:07:21
-(epstopdf)                    size: 5073 bytes
-(epstopdf)             Command: <epstopdf --outfile=Plots/slope_delay-eps-conve
-rted-to.pdf Plots/slope_delay.eps>
-(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Source file: <Plots/slope_delay1.eps>
+(epstopdf)                    date: 2015-12-08 21:40:14
+(epstopdf)                    size: 22771 bytes
+(epstopdf)             Output file: <Plots/slope_delay1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-08 21:40:38
+(epstopdf)                    size: 5068 bytes
+(epstopdf)             Command: <epstopdf --outfile=Plots/slope_delay1-eps-conv
+erted-to.pdf Plots/slope_delay1.eps>
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
-<Plots/slope_delay-eps-converted-to.pdf, id=29, 630.355pt x 167.62625pt>
-File: Plots/slope_delay-eps-converted-to.pdf Graphic file (type pdf)
+<Plots/slope_delay1-eps-converted-to.pdf, id=29, 630.355pt x 257.96375pt>
+File: Plots/slope_delay1-eps-converted-to.pdf Graphic file (type pdf)
 
-<use Plots/slope_delay-eps-converted-to.pdf>
-Package pdftex.def Info: Plots/slope_delay-eps-converted-to.pdf used on input l
-ine 50.
-(pdftex.def)             Requested size: 245.71811pt x 65.34071pt.
+<use Plots/slope_delay1-eps-converted-to.pdf>
+Package pdftex.def Info: Plots/slope_delay1-eps-converted-to.pdf used on input 
+line 52.
+(pdftex.def)             Requested size: 245.71811pt x 100.55428pt.
 )
 ("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
 2016\root.bbl")
@@ -429,7 +429,7 @@ Before submitting the final camera ready copy, remember to:
  process uses the US letter (8.5in X 11in) paper size.
 
 [4 <D:/word_master/S3P2/MF2075 Engineering Design Research Project/RPC/Report_A
-IM2016/Plots/slope_delay-eps-converted-to.pdf>]
+IM2016/Plots/slope_delay1-eps-converted-to.pdf>]
 ("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
 2016\root.aux")
 
@@ -438,8 +438,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  3945 strings out of 493921
- 56820 string characters out of 3147267
- 225313 words of memory out of 3000000
+ 56825 string characters out of 3147267
+ 226313 words of memory out of 3000000
  7140 multiletter control sequences out of 15000+200000
  115545 words of font info for 130 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
@@ -461,7 +461,7 @@ crr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on root.pdf (4 pages, 212806 bytes).
+Output written on root.pdf (4 pages, 213084 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

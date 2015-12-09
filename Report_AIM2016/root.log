@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  9 DEC 2015 11:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  9 DEC 2015 21:25
 entering extended mode
 **root.tex
 
@@ -694,16 +694,14 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+ [4 <D:/word_master/S3P2/MF2075 Engineering Design Research Project/RPC/Report_
+AIM2016/Plots/slope_delay1-eps-converted-to.pdf>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [4 <D:/word_master/S3P2/MF2075 Engineering Design Research Project/RPC/Report_
-AIM2016/Plots/slope_delay1-eps-converted-to.pdf>])
-("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
-2016\root.bbl" [5]
-Underfull \vbox (badness 4132) has occurred while \output is active []
-
 )
+("D:\word_master\S3P2\MF2075 Engineering Design Research Project\RPC\Report_AIM
+2016\root.bbl" [5])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -727,10 +725,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10671 strings out of 493921
- 199042 string characters out of 3147267
- 344492 words of memory out of 3000000
- 13821 multiletter control sequences out of 15000+200000
+ 10672 strings out of 493921
+ 199054 string characters out of 3147267
+ 343501 words of memory out of 3000000
+ 13822 multiletter control sequences out of 15000+200000
  122293 words of font info for 141 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
  45i,16n,39p,10415b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -751,7 +749,7 @@ crr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on root.pdf (6 pages, 239332 bytes).
+Output written on root.pdf (6 pages, 239862 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

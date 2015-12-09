@@ -74,4 +74,11 @@ The state variable $\mathbf{x}$ is defined as $$\mathbf{x}=\left[\begin{array}{c
   0 & 0 &  & 1 & 0
  \end{array}\right] $$ $$ B_{n \times 1} = \left[\begin{array}{c}1\\0\\ \vdots \\ 0 \end{array}\right]\; \text{and}\; C_{1 \times n}= \left[\begin{array}{c}b_1\\b_2\\ \vdots \\ b_n \end{array}\right]^T $$
  
-After discritizing the state space model, the whole trajectory can be expressed as a function of design variables and desired poles. Then ISE can be calculated based on trajectory.  
+By applying forward mode, the continuous state space model can be  discritized as \ref{eq:st_sp_d} where $t_s$ is sampling time. The whole trajectory can be expressed as a function of design variables and desired poles. Then ISE can be calculated based on trajectory. \begin{equation}\label{eq:st_sp_d}
+\begin{aligned} 
+\mathbf{x}(n)& =(t_sA_{n \times n}+I_n)\mathbf{x}(n-1)+t_sB_{n \times 1}r(n-1)\\
+y(n) & = C_{1 \times n} \mathbf{x}(n)
+\end{aligned} 
+\end{equation} 
+
+Those three criteria can become posybonials by following above approach. They can be applied independently or combined together to guarantee good dynamics of the designed system. There are plenty of evaluation criteria for system dynamics which can be introduced to this design approach, most of which have very complex format. Therefore, in order to apply them for optimization, those criteria need to be modified or even simplified to be posynomials.

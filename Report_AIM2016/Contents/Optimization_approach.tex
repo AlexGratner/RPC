@@ -55,5 +55,21 @@ Slope delay $D$ is used to describe delay of closed loop system under slope inpu
   \label{fig:slope}
 \end{figure}
 
-While overshoot and slope delay can only speak one aspect of the system, ISE is a rather comprehensive criterion. 
+While overshoot and slope delay can only speak one aspect of the system, ISE is a rather comprehensive criterion. If reference signal is $r(t)$ and output of the closed loop system is $y(t)$, ISE is defined as $$ ISE = \int_{0}^{\tau} (r(t)-y(t))^2dt$$ where $\tau$ is the period of the signal if input is periodic. With such a layout, ISE constraint calls for transformation before it can be fitted into the context of GP. In \cite{malmquist2015tool} a method based on Fourier transform is used, in which a signal is at first decomposed as a series of harmonics and output of those harmonics can be calculated by checking the frequency response of the system. System reaction can be estimated by combining harmonic output together. Another approach use discretized state space model instead. Both methods can provide sufficient and precise information of the system reaction. In terms of efficiency, since the current software framework is running in Matlab, state-space approach annihilate its counterpart. Therefore, the latter approach is illustrated here. In other context, harmonic approach might be preferred.
 
+The transfer function $G_{\text{cl}}(s)$ has all desired poles since it is  obtained by pole placement method. Suppose it is strictly proper and the transfer function is 
+$$\frac{Y(s)}{R(s)}=G_{\text{cl}}(s)=\frac{b_1s^{n-1}+b_2s^{n-2}+ \cdots +b_n}{s^n+a_1s^{n-1}+ \cdots + a_n}=\frac{N_\text{cl}(s)}{D_{\text{cl}}(s)}$$ where $Y(s)$ and $R(s)$ are Laplace transform of output $y(t)$ and $r(t)$ respectively and $n \in \mathbf{N_{++}}$. Its state space model, by following the method from \cite{astrom2010feedback}, is given by 
+\begin{equation}\label{eq:st_sp}
+\begin{aligned} 
+\dot{\mathbf{x}}&=A_{n \times n}\mathbf{x}+B_{n \times 1}r\\
+y&=C_{1 \times n} \mathbf{x}
+\end{aligned} 
+\end{equation}
+The state variable $\mathbf{x}$ is defined as $$\mathbf{x}=\left[\begin{array}{c}v^{(n)}\\ \vdots \\v^{(1)}\\v \end{array}\right]$$ where Laplace transform of $v$ fulfills $\sfrac{Y(s)}{V(s)}=N_{\text{cl}}(s)$ and $\sfrac{R(s)}{V(s)}=D_{\text{cl}}(s)$. The matrices of the model is given by $$ A_{n \times n} = 
+ \left[\begin{array}{ccccc}
+  -a_1 & -a_2 & \cdots & -a_{n-1} & -a_n \\
+  1 &	0 & \cdots & 0 & 0 \\
+  0 &	1 & \cdots & 0 & 0 \\
+  \vdots  &   & \ddots & \vdots& \vdots  \\
+  0 & 0 &  & 1 & 0
+ \end{array}\right] $$ $$ B_{n \times 1} = \left[\begin{array}{c}1\\0\\ \vdots \\ 0 \end{array}\right]\; \text{and}\; C_{1 \times n} \left[\begin{array}{c}b_1\\b_2\\ \vdots \\ b_n \end{array}\right]^T $$

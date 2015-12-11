@@ -1,16 +1,29 @@
-The physical system studied in our case is a mechatronic servo system consisting of a motor, a shaft and two planetary gear stages as shown in figure ?????. Both the static and dynamic models for different components have been previously developed by Roos and Malmquist. Here we will focus only on how to arrange the existing mathematical models to geometrical form which can be accepted by the CVX toolbox. In order to perform a fair comparison, the load used in our case is the same as that used in Malmquist$'$s, i.e. a load inertia $J_{\text{load}}$ equal to $\SI{1.1}{\kilogram\meter\squared}$ with a specified motion profile (shown in fig ?????). From figure ??? we can see that the peak torque is $T_{peak}=\SI{191.4}{\newton.\meter}$ and the root mean square (RMS) value of torque $T_{RMS}=\SI{49.39}{\newton.\meter}$ Similarly, the optimization objective is still the system volume. The dimensioning factor introduced in the dynamic model according to Malmquist$'$s method is applied to all the valid results from the static model, while in our case, the dimensioning factor is only calculated for the optimum from the static model.
+
+\begin{figure}[]
+  \begin{center}
+    %\includegraphics[width=\linewidth]{Plots/3Dplot_convex_static_mediumQ.eps}
+    \missingfigure[figwidth=\linewidth]{Testing a long text string}
+  \end{center}
+  \caption{Mechatronics servo system consisting of a motor and planetary gear which serves as the design case.}
+  \label{fig:CaseSystem}
+\end{figure}
+
+The physical system studied in our case is a mechatronic servo system consisting of a motor, a shaft and two planetary gear stages; as shown in figure \ref{fig:CaseSystem}. Both the static and dynamic models for different components have been previously developed by Roos and Malmquist. The load inertia, $J_{\text{load}}$, for the presented design case is as 1.1$kg/m^2$ and the chosen load profile can be viewed in Figure \ref{???}. This scenario is equivalent to the one presented by Malmquist in order to perform a fair comparison. The dimensioning factor introduced in the dynamic model is according to Malmquist$'$s method applied to all the valid results from the static model, while in our case, the dimensioning factor is only calculated for the optimum from the static models.
+
+%From figure ??? [[[[we can see]]] that the peak torque is $T_{peak}=191.4 N/m$ and the root mean square (RMS) value of torque $T_{RMS} = 49.39 N/m$. Similarly, the optimization objective is still the system volume.    
 
 \subsection*{Models}
+This section will focus on how to convert the excising mathematical models of the components in our design case to geometrical forms which can be analysed in the CVX software. 
 \subsubsection*{Motor}
-The motor model was derived by Roos[???] based on the constraint that the rated torque should be no less than the expected RMS torque:
+The motor model was derived by Roos\cite{roos2007} based on the constraint that the rated torque should be no less than the expected RMS torque according to
 \begin{equation} \label{eq:cs1}
 T_{\text{m,rated}} \geq \tilde{T}_{\text{m}}.
 \end{equation}
-Roos et al derived the rated torque of the motor considering mechanical, magnetic and thermal effects as
+Furthermore, Roos derived the rated torque of the motor considering mechanical, magnetic and thermal effects as
 \begin{equation} \label{eq:cs2}
 T_{\text{m,rated}}=C_{\text{m}}l_{\text{m}} r_{\text{m}}^{2.5}
 \end{equation}
-where $C_{\text{m}}$ is a constant for a specific motor type and cooling condition, $l_{\text{m}}$ is the motor length and $r_{\text{m}}$ the radius of the stator. The motor$’$s RMS torque is derived to drive the given load torque $T_{\text{l}}$ on the load side transferred to the motor side with gear ratio $n$:
+where $C_{\text{m}}$ is a constant for a specific motor type and cooling condition, $l_{\text{m}}$ is the motor length and $r_{\text{m}}$ the radius of the stator. The RMS torque required from the motor is derived by propagating the load torque $T_{\text{l}}$ through the planetary gear with gear ratio $n$
 \begin{equation} \label{eq:cs3}
 \tilde{T}_{\text{m}}=\sqrt{\frac{1}{\tau}\int_0^\tau ((C_{\text{mj}}l_{\text{m}} r_{\text{m}}^{4}+J_{\text{m}})\ddot{\varphi}_{\text{m}}+\frac{T_{\text{l}}}{n})^2  \mathrm{d} t}
 \end{equation}
@@ -19,7 +32,7 @@ Rewriting the equation \ref{eq:cs1} by combining equation \ref{eq:cs2} and \ref{
 \begin{equation} \label{eq:cs4}
 C_{\text{m}}l_{\text{m}} r_{\text{m}}^{2.5}\geq \sqrt{\frac{1}{\tau}\int_0^\tau ((C_{\text{mj}}l_{\text{m}} r_{\text{m}}^{4}+J_{\text{m}})\ddot{\varphi}_{\text{m}}+\frac{T_{\text{l}}}{n})^2  \mathrm{d} t}.
 \end{equation}
-Hence, the geometric form of this constraint is derived as
+Hence, the geometric form of this constraint can then be stated as
 \begin{equation} \label{eq:cs5}
 \frac{n_{\text{j}}^2 n^2 C_{\text{mj}}^2 T_{\text{rms}}^2 r_{\text{m}}^3}{J_{\text{load}}^2} + \frac{2 n_{\text{j}} C_{\text{mj}} T_{\text{rms}}^2}{J_{\text{load}} r_{\text{m}} l_{\text{m}}} + \frac{T_{\text{rms}}^2}{n^2 l_{\text{m}}^2 r_{\text{m}}^5}\leq C_{\text{m}}^2
 \end{equation}
@@ -38,11 +51,11 @@ where $K_{\text{t}}$ is the constant and $i$ is the electric current.
 
 
 \subsubsection*{Planetary gear}
-A three wheel planetary gear is used in the servo system instead of a spur gear since the volume of the planetary gear is less than a spur gear when transmitting the same torque. The main constraints on the planetary gear are bending stress in the root of a gear teeth and Hertzian pressure at the teeth contact surfaces. However, if the number of the sun gear teeth is small and/or the the gears are made from ductile steel, the dominant constraint would be the Herzian pressure. Every teeth surface needs to fulfill the following constraints by Roos:
+A planetary gear consisting of a sun gear, three planet gears and a ring gear is used in the servo system //Nescessary?//instead of a spur gear since the volume of the planetary gear is less than a spur gear when transmitting the same torque////. The main constraints on the planetary gear are bending stress in the root of a gear teeth and Hertzian pressure at the teeth contact surfaces. However, if the number of the sun gear teeth is small and/or the the gears are made from ductile steel, the dominant constraint would be the Herzian pressure. Every teeth surface needs to fulfil 
 \begin{equation} \label{eq:cs8}
 r_{\text{g}}^2b \geq Z_{\text{H}}^2 Z_{\text{M}}^2 Z_{\epsilon} K_{\text{H} \alpha} K_{\text{H} \beta} \frac{T_{\text{l}}(n-1)^2}{6(n-2)\sigma_{\text{H,max}}^2}.
 \end{equation}
-Applying the standard parameters defined in Roos$'$ work, equation \ref{eq:cs8} can be simplified as
+according to Roos. Applying the standard parameters defined in Roos$'$ work, equation \ref{eq:cs8} can be simplified as
 \begin{equation} \label{eq:cs9}
 r_{\text{g}}^2b \geq 4\cdot10^{10} \cdot C_{\text{gr}}^2\frac{T_{\text{l}}(n-1)^2}{(n-2)\sigma_{\text{H,max}}^2}
 \end{equation}
@@ -137,3 +150,13 @@ $Three$ & $Four$ & $Four$\\
 \end{tabular}
 \end{center}
 \end{table}
+
+\begin{figure}[t]
+  \begin{center}
+    \includegraphics[width=\linewidth]{Plots/3Dplot_convex_static_mediumQ.eps}
+  \end{center}
+  \caption{Optimal volume for static case with varying gear radius and gear ratio.}
+  \label{fig:static3D}
+\end{figure}
+
+
